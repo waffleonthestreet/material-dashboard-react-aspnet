@@ -1,12 +1,10 @@
 # [Material Dashboard React Aspnet](https://www.creative-tim.com/live/material-dashboard-react-asp-net) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/share?url=https%3A%2F%2Fwww.creative-tim.com%2Flive%2Fmaterial-dashboard-react-asp-net&text=Material%20Dashboard%20React%20Aspnet%20-%20Free%Aspnet%20Admin%20Template&via=%40creativetim%20&hashtags=react%20%20%23material-ui%20%23aspnet)
 
-
-
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-dashboard-react-aspnet.svg?maxAge=2592000)]() [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-dashboard-react-aspnet.svg?maxAge=2592000)]() [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim/material-dashboard?utm_source=share-link&utm_medium=link&utm_campaign=share-link) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
 ![Product Gif](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-dashboard-react-aspnet/material-dashboard-react-aspnet.gif)
 
-Start your development with an Admin Dashboard built for ASP.NET Core framework, the newest go-to technology from Microsoft for top companies. [Creative Tim](https://www.creative-tim.com/)  to provide a fully coded **frontend + backend** solution for you. It features a huge number of components that can help you create amazing websites and brings with itself innumerable advantages: the lightweight, fast, scalable and modern way to execute your next top app.
+Start your development with an Admin Dashboard built for ASP.NET Core framework, the newest go-to technology from Microsoft for top companies. [Creative Tim](https://www.creative-tim.com/) to provide a fully coded **frontend + backend** solution for you. It features a huge number of components that can help you create amazing websites and brings with itself innumerable advantages: the lightweight, fast, scalable and modern way to execute your next top app.
 
 **Speed up development with Docker containers**
 
@@ -31,42 +29,41 @@ If you want to get inspiration or just show something directly to your clients, 
 View example pages [here](https://www.creative-tim.com/live/material-dashboard-react-asp-net)
 
 Special thanks go to:
-+ [React-chartist](https://github.com/fraserxu/react-chartist) for the wonderful charts.
+
+- [React-chartist](https://github.com/fraserxu/react-chartist) for the wonderful charts.
 
 We are very excited to share this dashboard with you and we look forward to hearing your feedback!
 
 ## Table of Contents
 
-* [Versions](#versions)
-* [Demo](#demo)
-* [Quick Start](#quick-start)
-* [Usage](#usage)
-* [Documentation](#documentation)
-* [File Structure](#file-structure)
-* [Browser Support](#browser-support)
-* [Resources](#resources)
-* [Reporting Issues](#reporting-issues)
-* [Technical Support or Questions](#technical-support-or-questions)
-* [Licensing](#licensing)
-* [Useful Links](#useful-links)
-
+- [Versions](#versions)
+- [Demo](#demo)
+- [Quick Start](#quick-start)
+- [Usage](#usage)
+- [Documentation](#documentation)
+- [File Structure](#file-structure)
+- [Browser Support](#browser-support)
+- [Resources](#resources)
+- [Reporting Issues](#reporting-issues)
+- [Technical Support or Questions](#technical-support-or-questions)
+- [Licensing](#licensing)
+- [Useful Links](#useful-links)
 
 ## Versions
+
 [<img src="React/src/assets/github/aspnet.png" width="60" height="60" />](https://www.creative-tim.com/product/material-dashboard-react-aspnet)
 
-
-| Aspnet |
-| --- | 
+| Aspnet                                                                                                                                                                                                            |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [![Material Dashboard React Aspnet](https://s3.amazonaws.com/creativetim_bucket/products/397/thumb/opt_md_aspnet_thumbnail.jpg?1602152389)](https://www.creative-tim.com/product/material-dashboard-react-aspnet) |
 
 ## Demo
 
-| Dashboard | User Profile | Tables | Maps | Notification |
-| --- | --- | --- | --- | --- |
-| [![Start page](React/src/assets/github/dashboard.jpg)](https://material-dashboard-asp-net-react.creative-tim.com/admin/dashboard) | [![User profile page](React/src/assets/github/userprofile.jpg)](https://material-dashboard-asp-net-react.creative-tim.com/admin/user) | [![Tables page ](React/src/assets/github/tables.jpg)](https://material-dashboard-asp-net-react.creative-tim.com/admin/table) | [![Maps Page](React/src/assets/github/map.jpg)](https://material-dashboard-asp-net-react.creative-tim.com/admin/maps) | [![Notification page](React/src/assets/github/notifications.jpg)](https://material-dashboard-asp-net-react.creative-tim.com/admin/notifications)
+| Dashboard                                                                                                                         | User Profile                                                                                                                          | Tables                                                                                                                       | Maps                                                                                                                  | Notification                                                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [![Start page](React/src/assets/github/dashboard.jpg)](https://material-dashboard-asp-net-react.creative-tim.com/admin/dashboard) | [![User profile page](React/src/assets/github/userprofile.jpg)](https://material-dashboard-asp-net-react.creative-tim.com/admin/user) | [![Tables page ](React/src/assets/github/tables.jpg)](https://material-dashboard-asp-net-react.creative-tim.com/admin/table) | [![Maps Page](React/src/assets/github/map.jpg)](https://material-dashboard-asp-net-react.creative-tim.com/admin/maps) | [![Notification page](React/src/assets/github/notifications.jpg)](https://material-dashboard-asp-net-react.creative-tim.com/admin/notifications) |
 
 [View More](https://www.creative-tim.com/live/material-dashboard-react-asp-net).
-
 
 ## Quick start
 
@@ -78,16 +75,17 @@ Quick start options:
 - [Download from Creative Tim](https://www.creative-tim.com/product/material-dashboard-react-aspnet).
 - From the project root folder run `docker-compose up --build`. Note that the first time you run this the images will build.
 - Once docker-compose has finished, you will find the projects on the following URLs:
-[Dashboard](http://localhost:3000/admin/dashboard)
-[Identity Server](http://localhost:5000/.well-known/openid-configuration) -
-
+  [Dashboard](http://localhost:3000/admin/dashboard)
+  [Identity Server](http:///.well-known/openid-configuration) -
 
 ## Usage
+
 You now have 2 applications running consisting of a React front end and application an Identity Server (IDS) based on C# and .Net Core. This implentation follow the resource owner password flow but can be modified to support others.
 
 The integration gives you 3 features:
+
 1. Login. The IDS has 2 default logins to get you started:
-	Username: alice	Password: Pass123$
+   Username: alice Password: Pass123$
 	Username: bob	Password: Pass123$
 
 2. Register. This registers a new user in IDS
@@ -95,16 +93,17 @@ The integration gives you 3 features:
 3. User Profile. Update profile and change password.
 
 If you wish to change any of the settings around authentications, please refer to the following files:
+
 - \React\src\services\oauth.js
 - \IdentityServer\Config.cs
 - \IdentityServer\Startup.cs
 - \IdentityServer\Quickstart\Account\AccountOptions.cs
 
-You can find documentation  on IDS [here](https://identityserver.io/)
+You can find documentation on IDS [here](https://identityserver.io/)
 
 ## Documentation
-The documentation for the Material Dashboard React Aspnet is hosted at our [website](https://demos.creative-tim.com/material-dashboard-react/#/documentation/asp-net).
 
+The documentation for the Material Dashboard React Aspnet is hosted at our [website](https://demos.creative-tim.com/material-dashboard-react/#/documentation/asp-net).
 
 ## File Structure
 
@@ -577,8 +576,8 @@ At present, we officially aim to support the last two versions of the following 
 
 <img src="React/src/assets/github/chrome.png" width="64" height="64"> <img src="React/src/assets/github/firefox.png" width="64" height="64"> <img src="React/src/assets/github/edge.png" width="64" height="64"> <img src="React/src/assets/github/safari.png" width="64" height="64"> <img src="React/src/assets/github/opera.png" width="64" height="64">
 
-
 ## Resources
+
 - Demo: https://www.creative-tim.com/live/material-dashboard-react-asp-net
 - Download Page: https://www.creative-tim.com/product/material-dashboard-react-aspnet
 - Documentation: https://demos.creative-tim.com/material-dashboard-react/#/documentation/asp-net
@@ -588,6 +587,7 @@ At present, we officially aim to support the last two versions of the following 
 - [Material Kit React - For Front End Development](https://www.creative-tim.com/product/material-kit-react?ref=github-mdr-free)
 
 ## Reporting Issues
+
 We use GitHub Issues as the official bug tracker for the Material Dashboard React. Here are some advices for our users that want to report an issue:
 
 1. Make sure that you are using the latest version of the Material Dashboard React. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/).

@@ -65,7 +65,8 @@ export default function LoginPage() {
   };
 
   const onSubmitLogin = (data) => {
-      login({ email: data.email, password: data.password })
+    //login({ email: data.email, password: data.password })
+    login({ email: data.email, password: "Pass123$" })
       .then((token) => {
         if (token) {
           history.push("/admin/dasboard");
@@ -146,10 +147,13 @@ export default function LoginPage() {
                     autoComplete: "off",
                   }}
                 />
-                          </CardBody>
-                          <CardFooter className={classes.justifyContentCenter}>
-                              <p>The default users are <strong>alice/bob</strong>, password: <strong>Pass123$</strong></p>
-                          </CardFooter>
+              </CardBody>
+              <CardFooter className={classes.justifyContentCenter}>
+                <p>
+                  The default users are <strong>alice/bob</strong>, password:{" "}
+                  <strong>Pass123$</strong>
+                </p>
+              </CardFooter>
               <CardFooter className={classes.justifyContentCenter}>
                 <Button type="submit" color="rose" simple size="lg" block>
                   Let{"'"}s Go
